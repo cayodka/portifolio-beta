@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+header{
+    border: 2px solid greenyellow;
+}
+header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid greenyellow;
+}
+
+
+header li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    float: center;
+    justify-content:center;
+    gap: 50px;
+    font-size: 50px;
+}
+
+nav a:hover{
+    color: greenyellow;
+}
+
+body{
+    background-color: rgba(51, 50, 50, 0.967);
+}
+
+.About-me{
+    border: 1px solid rgb(47, 151, 255);
+    margin-top: 10px;
+    background-image: url(./img/download\ \(1\).gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.About-me h1:hover{
+    color: rgb(0, 110, 255);
+    transform: scale(1.1);
+}
+
+.Picture img{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 10%;
+    width: 10%;
+    margin-top: 10px;
+    margin-left: 46%;
+    align-items: center;
+    border: 5px solid rgb(47, 151, 255);
+    border-radius: 50%;
+}
+
+.Picture img:hover{
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.596);
+    transform: scale(1.05);
+}
+.container-myname{
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+}
+.container-myname h1, h2{
+    color: azure;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 2px solid pink;
+}
+
+main h3{
+    text-align: center;
+    color:aliceblue;
+    font-size: 60px;
+}
+
+main p{
+    color:violet;
+    font-size: 30px
+}
+
+main h3:hover{
+    color: pink;
+    transform: scale(1.2)
+}
+main p:hover{
+    color: aliceblue;
+    transform: scale(1.2);
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/Japanese\ Wheat\ Field.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    border: 2px solid gold;
+}
+
+footer img {
+    width: 60px;
+    height: 60px;
+}
+
+footer a{
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+}
+
+footer a:hover{
+    color: aliceblue;
+    transform: scale(1.2);
+}
+footer p{
+    margin: 10px;
+}
